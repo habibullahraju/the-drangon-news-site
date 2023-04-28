@@ -26,7 +26,7 @@ const RightNav = () => {
             </div>
             <div   className='position-relative'>
                 <div>
-                <img src={bg} alt="" />
+                <img className='w-100' src={bg} alt="" />
                 </div>
                     <div className='position-absolute top-0 text-white p-5 mt-4 text-center'>
                     <h2 className='mb-5'>Create an Amazing Newspaper</h2>

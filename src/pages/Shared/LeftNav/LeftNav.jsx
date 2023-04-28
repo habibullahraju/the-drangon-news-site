@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import LeftNewsNav from '../../News/LeftNewsNav/LeftNewsNav';
 
 const LeftNav = () => {
     const [categories , setCategories] = useState([]);
@@ -19,6 +20,7 @@ const LeftNav = () => {
                        <Link to={`category/${category.id}`} className='text-black text-decoration-none'>{category.name}</Link>
                     </p>)
                 }
+                <LeftNewsNav></LeftNewsNav>
             </div>
         </div>
     );
